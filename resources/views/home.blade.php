@@ -14,7 +14,8 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    Hello user, check the new content.
+                    <a href="#">See more</a>
                 </div>
             </div>
         </div>
