@@ -61,6 +61,12 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            .footer{
+                background-color: beige;
+                padding: 15px ;
+            }
+
         </style>
     </head>
     <body>
@@ -94,6 +100,13 @@
                     <a href="https://vapor.laravel.com">Vapor</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
+
+                <div class="row footer">
+                    <div class="col-md-12">
+                        Footer
+                    </div>
+                </div>
+
             </div>
         </div>
     </body>
