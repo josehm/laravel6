@@ -61,6 +61,11 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            .auth-button {
+                padding: 5px !important;
+                background-color: aquamarine;
+            }
         </style>
     </head>
     <body>
@@ -70,10 +75,10 @@
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
                     @else
-                        <a href="{{ route('login') }}">Login</a>
+                        <a class="auth-button" href="{{ route('login') }}">Login</a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
+                            <a class="auth-button" href="{{ route('register') }}">Register</a>
                         @endif
                     @endauth
                 </div>
