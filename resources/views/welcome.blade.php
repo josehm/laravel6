@@ -91,7 +91,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel 6 Fix
+                    Laravel 6 probando pull request
                 </div>
 
                 <div class="links">
