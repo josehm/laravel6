@@ -91,7 +91,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel 6
+                    Laravel 6 Fix
                 </div>
 
                 <div class="links">
@@ -107,7 +107,7 @@
 
                 <div class="row footer">
                     <div class="col-md-12">
-                        Footer
+                        Footer Fix
                     </div>
                 </div>
 
